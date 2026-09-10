@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Contact form fill (QA)",
+  "version": "1.1.1",
+  "description": "Fills contact forms and reports thank-you or submit failure to the local tester.",
+  "permissions": ["tabs"],
+  "host_permissions": [
+    "http://127.0.0.1/*",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ]
+}

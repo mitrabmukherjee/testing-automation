@@ -1,0 +1,6 @@
+.venv/
+.chrome-qa-profile/
+screenshots/
+results.json
+__pycache__/
+*.pyc
