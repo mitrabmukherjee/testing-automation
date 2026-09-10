@@ -69,9 +69,9 @@ You should see a green bar at the top and the fields fill with:
 
 | Field | Value |
 | --- | --- |
-| Full name | Mitra Brinda Mukherjee |
+| Full name | Your full name |
 | Phone | 1234567890 |
-| Email | mitra.b.mukherjee@steorasystems.com |
+| Email | youremail@domain.com |
 | Requirement | Other / Others |
 | Comments | DEV TEAM TESTING |
 
